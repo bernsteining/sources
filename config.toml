@@ -1,0 +1,66 @@
+baseURL = "https://bernsteining.github.io/"
+languageCode = "en"
+title = "Bernstein"
+theme = "hyde-hyde"
+
+pluralizelisttitles = "false"
+DefaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+enableRobotsTXT = true
+  
+
+## Site Settings
+[params]
+    author = "Bernstein"
+    description = "Digital Forensics\n&\nCoding"
+    authorimage = "/img/avatar.jpg"
+    dateformat = "Jan 2, 2006"
+    themeColor = "theme-base-01"
+
+## Social Accounts
+[params.social]
+    github = "bernsteining"
+    twitter = "@bernsteining"
+    rootme = "Bernstein"
+
+  [Languages.en]
+    ## Main Menu
+
+    [[Languages.en.menu.main]]
+        name = "Forensics"
+        identifier = "forensics"
+        weight = 1
+        url = "/en/forensics/"
+
+    [[Languages.en.menu.main]]
+        name = "Coding Projects"
+        identifier = "coding"
+        weight = 2
+        url = "/en/coding/"
+
+    [[Languages.en.menu.main]]
+        name = "About"
+        identifier = "about"
+        weight = 6
+        url = "/en/about/"
+
+  [Languages.fr]
+    ## Main Menu
+
+    [[Languages.fr.menu.main]]
+        name = "Forensics"
+        identifier = "forensics"
+        weight = 1
+        url = "/fr/Forensics/"
+
+    [[Languages.fr.menu.main]]
+        name = "Coding Projects"
+        identifier = "coding"
+        weight = 2
+        url = "/fr/coding/"
+
+    [[Languages.fr.menu.main]]
+        name = "About"
+        identifier = "about"
+        weight = 6
+        url = "/fr/about/"

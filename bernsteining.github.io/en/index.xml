@@ -41,5 +41,17 @@ Goal of the project The goal of this project is to collect all the locations lin
 I doesn&#39;t use Instagram&#39;s API since Instagram deprecated its location functionality in 2018, and also because I wanted to play with Selenium and Chromedriver to make my own scraper.</description>
     </item>
     
+    <item>
+      <title>Other cool blogs</title>
+      <link>https://bernsteining.github.io/en/blogs/</link>
+      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://bernsteining.github.io/en/blogs/</guid>
+      <description>Laluka&#39;s blog: (pwn, coding &amp;amp; write ups)
+https://thinkloveshare.com/en/
+ENOENT&#39;s blog: (mainly crypto &amp;amp; reverse)
+https://bitsdeep.com/</description>
+    </item>
+    
   </channel>
 </rss>

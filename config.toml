@@ -44,6 +44,12 @@ enableRobotsTXT = true
         weight = 6
         url = "/en/about/"
 
+    [[Languages.en.menu.main]]
+        name = "Other cool blogs"
+        identifier = "blogs"
+        weight = 6
+        url = "/en/blogs/"
+
   [Languages.fr]
     ## Main Menu
 

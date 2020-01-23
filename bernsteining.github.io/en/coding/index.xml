@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Coding on Bernstein</title>
+    <link>https://bernsteining.github.io/en/coding/</link>
+    <description>Recent content in Coding on Bernstein</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 20 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://bernsteining.github.io/en/coding/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>instaloctrack</title>
+      <link>https://bernsteining.github.io/en/coding/instaloctrack/instaloctrack_en/</link>
+      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://bernsteining.github.io/en/coding/instaloctrack/instaloctrack_en/</guid>
+      <description>An OSINT/SOCMINT Project.
+TL;DR : video of the script being launched : https://www.youtube.com/watch?v=BKlTnBWupr0 (previous version tho !)
+Goal of the project The goal of this project is to collect all the locations linked to the photos of an Instagram profile in order to place them on a map.
+I doesn&#39;t use Instagram&#39;s API since Instagram deprecated its location functionality in 2018, and also because I wanted to play with Selenium and Chromedriver to make my own scraper.</description>
+    </item>
+    
+  </channel>
+</rss>

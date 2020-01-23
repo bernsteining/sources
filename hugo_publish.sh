@@ -12,7 +12,7 @@ read -p "Add all and publish as : $1 ?"
 
 # Clean the published dir
 if [ -d "bernsteining.github.io/.git" ]; then
-	/bin/rm -rf ThinkLoveShare.github.io/* # Keeps the .git
+	/bin/rm -rf bernsteining.github.io/* # Keeps the .git
 else
 	git clone git@github.com:bernsteining/bernsteining.github.io.git
 	/bin/rm -rf bernsteining.github.io/* # Keeps the .git

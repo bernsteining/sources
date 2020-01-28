@@ -6,9 +6,54 @@
     <description>Recent content on Bernstein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <lastBuildDate>Tue, 28 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://bernsteining.github.io/fr/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Homemade file sharing</title>
+      <link>https://bernsteining.github.io/fr/coding/homemade-file-sharing/homemade_filesharing_fr/</link>
+      <pubDate>Tue, 28 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://bernsteining.github.io/fr/coding/homemade-file-sharing/homemade_filesharing_fr/</guid>
+      <description>Homemade file sharing Il arrive souvent que l&#39;on veuille partager des fichiers sans avoir à se créer un compte sur un service d&#39;hébergement, et aussi sans qu&#39;il y ait persistance du fichier sur le service d&#39;hébergement. Bref, qu&#39;on veuille échanger des fichiers à une personne tierce rapidement à l&#39;aide d&#39;une URL, juste le temps qu&#39;elle télécharge les fichiers.
+Un moyen simple est de le faire à l&#39;aide d&#39;un tunnel ngrok, couplé à un simple serveur en Python.</description>
+    </item>
+    
+    <item>
+      <title>D&#39;autres blogs cool</title>
+      <link>https://bernsteining.github.io/fr/blogs/</link>
+      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://bernsteining.github.io/fr/blogs/</guid>
+      <description>Laluka&#39;s blog: (pwn, coding &amp;amp; write ups)
+https://thinkloveshare.com/en/
+&amp;amp; plus particulièrement : https://thinkloveshare.com/en/coding/website_migration/ qui m&#39;a grandement aidé à setup mon blog ;)
+ENOENT&#39;s blog: (mainly crypto &amp;amp; reverse)
+https://bitsdeep.com/</description>
+    </item>
+    
+    <item>
+      <title>Dumpin&#39; a smartphone BGA eMMC</title>
+      <link>https://bernsteining.github.io/fr/forensics/smartphone_bga_dump/smartphone_bga_dump/</link>
+      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://bernsteining.github.io/fr/forensics/smartphone_bga_dump/smartphone_bga_dump/</guid>
+      <description>Bientôt disponible &amp;hellip; :)</description>
+    </item>
+    
+    <item>
+      <title>instaloctrack</title>
+      <link>https://bernsteining.github.io/fr/coding/instaloctrack/instaloctrack_en/</link>
+      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://bernsteining.github.io/fr/coding/instaloctrack/instaloctrack_en/</guid>
+      <description>An OSINT/SOCMINT Project.
+TL;DR : video of the script being launched : https://www.youtube.com/watch?v=BKlTnBWupr0 (previous version tho !)
+Goal of the project The goal of this project is to collect all the locations linked to the photos of an Instagram profile in order to place them on a map.
+I doesn&#39;t use Instagram&#39;s API since Instagram deprecated its location functionality in 2018, and also because I wanted to play with Selenium and Chromedriver to make my own scraper.</description>
+    </item>
     
   </channel>
 </rss>

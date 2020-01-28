@@ -2,32 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Coding on Bernstein</title>
-    <link>https://bernsteining.github.io/en/coding/</link>
+    <link>https://bernsteining.github.io/fr/coding/</link>
     <description>Recent content in Coding on Bernstein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 28 Jan 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://bernsteining.github.io/en/coding/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bernsteining.github.io/fr/coding/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Homemade file sharing</title>
-      <link>https://bernsteining.github.io/en/coding/homemade-file-sharing/homemade_filesharing_en/</link>
+      <link>https://bernsteining.github.io/fr/coding/homemade-file-sharing/homemade_filesharing_fr/</link>
       <pubDate>Tue, 28 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://bernsteining.github.io/en/coding/homemade-file-sharing/homemade_filesharing_en/</guid>
-      <description>Homemade file sharing Quite often, I want share files without having an account on the hosting platform I&#39;m using, and I don&#39;t want my files to be persistant on the platform. I just want to share files temporarly and quickly to a friend using an URL.
-An easy way to do so, is to use a ngrok tunnel, coupled with a simple HTTP server with Python.
-ngrok, whatzdat? ngrok is a light software that allows us to create a tunnel for free between your computer and the Internet, without configuring your box&#39;s ports.</description>
+      <guid>https://bernsteining.github.io/fr/coding/homemade-file-sharing/homemade_filesharing_fr/</guid>
+      <description>Homemade file sharing Il arrive souvent que l&#39;on veuille partager des fichiers sans avoir à se créer un compte sur un service d&#39;hébergement, et aussi sans qu&#39;il y ait persistance du fichier sur le service d&#39;hébergement. Bref, qu&#39;on veuille échanger des fichiers à une personne tierce rapidement à l&#39;aide d&#39;une URL, juste le temps qu&#39;elle télécharge les fichiers.
+Un moyen simple est de le faire à l&#39;aide d&#39;un tunnel ngrok, couplé à un simple serveur en Python.</description>
     </item>
     
     <item>
       <title>instaloctrack</title>
-      <link>https://bernsteining.github.io/en/coding/instaloctrack/instaloctrack_en/</link>
+      <link>https://bernsteining.github.io/fr/coding/instaloctrack/instaloctrack_en/</link>
       <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://bernsteining.github.io/en/coding/instaloctrack/instaloctrack_en/</guid>
+      <guid>https://bernsteining.github.io/fr/coding/instaloctrack/instaloctrack_en/</guid>
       <description>An OSINT/SOCMINT Project.
 TL;DR : video of the script being launched : https://www.youtube.com/watch?v=BKlTnBWupr0 (previous version tho !)
 Goal of the project The goal of this project is to collect all the locations linked to the photos of an Instagram profile in order to place them on a map.

@@ -6,10 +6,21 @@
     <description>Recent content on Bernstein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 20 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://bernsteining.github.io/en/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Homemade file sharing</title>
+      <link>https://bernsteining.github.io/en/coding/homemade-file-sharing/homemade_filesharing_en/</link>
+      <pubDate>Tue, 28 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://bernsteining.github.io/en/coding/homemade-file-sharing/homemade_filesharing_en/</guid>
+      <description>Homemade file sharing Quite often, I want share files without having an account on the hosting platform I&#39;m using, and I don&#39;t want my files to be persistant on the platform. I just want to share files temporarly and quickly to a friend using an URL.
+An easy way to do so, is to use a ngrok tunnel, coupled with a simple HTTP server with Python.
+ngrok, whatzdat? ngrok is a light software that allows us to create a tunnel for free between your computer and the Internet, without configuring your box&#39;s ports.</description>
+    </item>
     
     <item>
       <title>&#39;bout meh</title>
@@ -49,6 +60,7 @@ I doesn&#39;t use Instagram&#39;s API since Instagram deprecated its location fu
       <guid>https://bernsteining.github.io/en/blogs/</guid>
       <description>Laluka&#39;s blog: (pwn, coding &amp;amp; write ups)
 https://thinkloveshare.com/en/
+&amp;amp; more specifically : https://thinkloveshare.com/en/coding/website_migration/ which helped me a lot to setup this blog ;)
 ENOENT&#39;s blog: (mainly crypto &amp;amp; reverse)
 https://bitsdeep.com/</description>
     </item>

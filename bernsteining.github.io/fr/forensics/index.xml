@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Forensics on Bernstein</title>
+    <link>https://bernsteining.github.io/fr/forensics/</link>
+    <description>Recent content in Forensics on Bernstein</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 20 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://bernsteining.github.io/fr/forensics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dumpin&#39; a smartphone BGA eMMC</title>
+      <link>https://bernsteining.github.io/fr/forensics/smartphone_bga_dump/smartphone_bga_dump/</link>
+      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://bernsteining.github.io/fr/forensics/smartphone_bga_dump/smartphone_bga_dump/</guid>
+      <description>Bientôt disponible &amp;hellip; :)</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,10 +1,10 @@
 ---
 author: "bernstein"
-title: "Other cool blogs"
+title: "D'autres blogs cool"
 slug: "blogs"
 date: 2020-01-20
 status: "original"
-description: "infosec related blogs"
+description: "blogs d'infosec"
 ---
 
 
@@ -14,8 +14,7 @@ description: "infosec related blogs"
 
 https://thinkloveshare.com/en/
 
-& more specifically : https://thinkloveshare.com/en/coding/website_migration/ which helped me a lot to setup this blog ;)
-
+& plus particulièrement : https://thinkloveshare.com/en/coding/website_migration/ qui m'a grandement aidé à setup mon blog ;)
 
 ### ENOENT's blog:
 

@@ -3,13 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://bernsteining.github.io/en/about/</loc>
-    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://bernsteining.github.io/en/</loc>
-    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -24,27 +19,97 @@
   
   <url>
     <loc>https://bernsteining.github.io/en/coding/</loc>
+    <lastmod>2020-01-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://bernsteining.github.io/fr/coding/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bernsteining.github.io/en/coding/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://bernsteining.github.io/en/coding/homemade-file-sharing/homemade_filesharing_en/</loc>
+    <lastmod>2020-01-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://bernsteining.github.io/fr/coding/homemade-file-sharing/homemade_filesharing_fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bernsteining.github.io/en/coding/homemade-file-sharing/homemade_filesharing_en/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://bernsteining.github.io/en/about/</loc>
     <lastmod>2020-01-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://bernsteining.github.io/en/forensics/smartphone_bga_dump/smartphone_bga_dump/</loc>
     <lastmod>2020-01-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://bernsteining.github.io/fr/forensics/smartphone_bga_dump/smartphone_bga_dump/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bernsteining.github.io/en/forensics/smartphone_bga_dump/smartphone_bga_dump/"
+                />
   </url>
   
   <url>
     <loc>https://bernsteining.github.io/en/forensics/</loc>
     <lastmod>2020-01-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://bernsteining.github.io/fr/forensics/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bernsteining.github.io/en/forensics/"
+                />
   </url>
   
   <url>
     <loc>https://bernsteining.github.io/en/coding/instaloctrack/instaloctrack_en/</loc>
     <lastmod>2020-01-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://bernsteining.github.io/fr/coding/instaloctrack/instaloctrack_en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bernsteining.github.io/en/coding/instaloctrack/instaloctrack_en/"
+                />
   </url>
   
   <url>
     <loc>https://bernsteining.github.io/en/blogs/</loc>
     <lastmod>2020-01-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://bernsteining.github.io/fr/blogs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bernsteining.github.io/en/blogs/"
+                />
   </url>
   
   <url>

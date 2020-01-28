@@ -27,7 +27,7 @@ enableRobotsTXT = true
     ## Main Menu
 
     [[Languages.en.menu.main]]
-        name = "Forensics"
+        name = "Digital Forensics"
         identifier = "forensics"
         weight = 1
         url = "/en/forensics/"
@@ -70,3 +70,9 @@ enableRobotsTXT = true
         identifier = "about"
         weight = 6
         url = "/fr/about/"
+
+    [[Languages.en.menu.main]]
+        name = "Autres blogs cools"
+        identifier = "blogs"
+        weight = 6
+        url = "/fr/blogs/"

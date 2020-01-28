@@ -1,6 +1,6 @@
 ---
 author: "bernstein"
-title: "Homemade file sharing"
+title: "Homemade file sharing with ngrok"
 slug: "homemade_filesharing_en"
 date: 2020-01-28
 status: "original"

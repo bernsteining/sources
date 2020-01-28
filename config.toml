@@ -23,6 +23,7 @@ enableRobotsTXT = true
     twitter = "@bernsteining"
     rootme = "Bernstein"
 
+[Languages]
   [Languages.en]
     ## Main Menu
 
@@ -41,20 +42,20 @@ enableRobotsTXT = true
     [[Languages.en.menu.main]]
         name = "About"
         identifier = "about"
-        weight = 6
+        weight = 3
         url = "/en/about/"
 
     [[Languages.en.menu.main]]
         name = "Other cool blogs"
         identifier = "blogs"
-        weight = 6
+        weight = 4
         url = "/en/blogs/"
 
   [Languages.fr]
     ## Main Menu
 
     [[Languages.fr.menu.main]]
-        name = "Forensics"
+        name = "Inforensique"
         identifier = "forensics"
         weight = 1
         url = "/fr/Forensics/"

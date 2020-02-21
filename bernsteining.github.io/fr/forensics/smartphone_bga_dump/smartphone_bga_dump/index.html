@@ -162,7 +162,7 @@ Coding
   <i class="fas fa-calendar-alt"></i> Jan 20, 2020
   
   
-  <i class="fas fa-clock"></i> 1 min read
+  <i class="fas fa-clock"></i> 3 min read
   <i class="fas fa-globe"></i> original<br />
 
 </div>
@@ -170,7 +170,42 @@ Coding
   </header>
   <hr/>
   <div class="post">
-    <p>Bientôt disponible &hellip; :)</p>
+    <h1 id="dump-dune-mémoire-flash-bga-samsung-galaxy-s4">Dump d'une mémoire flash BGA (Samsung Galaxy S4)</h1>
+<p>Aujourd'hui, nous allons nous interesser au dump physique d'une mémoire interne de Samsung Galaxy S4. Quand je parle de dump physique, cela diffère d'un dump logique, où les données seraient récupérées à l'aide d'un dd. Ici, on va déssouder la puce pour enfin la lire. Explications.</p>
+<p><strong>NB: Avant toute chose, il est important de préciser que ce genre de méthode est à utiliser en dernier recours, qu'un dump logique (si possible) est à favoriser. Le fait de déssouder la puce ne garantit pas forcément l'intégrité des données, et le risque de cramer la puce n'est pas négligeable.</strong></p>
+<h2 id="identification-de-la-puce">Identification de la puce</h2>
+<p>A disposition, nous avons le circuit imprimé du téléphone, et les différents composants ainsi que leurs références sont donc visibles.
+A l'aide d'une loupe ou d'un microscope, on peut rapidement identifier la nature des différents composants en cherchant leurs références sur Internet (les google dorks peuvent s'avérer utiles).
+Une fois la mémoire interne identifiée, le but est de trouver sa datasheet, un .PDF contenant toutes les caractéristiques physiques la décrivant. On aura ainsi plus d'indice sur son format, comment la lire, etc&hellip;</p>
+<h3 id="différence-bga--soic-">Différence BGA / SOIC :</h3>
+<p>Petit point de vocabulaire, plusieurs types de puces existent, parmi eux BGA (Ball Grid Array) et SOIC (Small outline integrated circuit).</p>
+<p>Les BGAs s'indentifient par le fait que la connexion de la puce au circuit imprimé se fait par des &ldquo;billes&rdquo; se situant en dessous de la puce.</p>
+<p><img src="https://www.multi-circuit-boards.eu/fileadmin/img/03_Design-Hilfe/bga/bga_leiterplatte_ball-grid-array.jpg" alt="BGA"></p>
+<p>Tandis qu'une SOIC s'identifient par le fait que la connexion de la puce au circuit imprimé se fait par ses &ldquo;pattes&rdquo; sur le côté.</p>
+<p><img src="http://fr.hobbytronics.co.uk/image/cache/data/soic-20-500x500.jpg" alt="SOIC"></p>
+<p>Une différence majeure, qui rend les puces BGA bien plus difficiles à déssouder, de plus que les constructeurs ajoutent souvent de la colle.</p>
+<h2 id="déssoudage-de-la-puce">Déssoudage de la puce</h2>
+<p>Passons aux choses sérieuses, le retrait de la puce du circuit imprimé. Attention, chaud devant!</p>
+<p>Pour la déssouder, on se sert d'un pistolet à air chaud.</p>
+<p><img src="https://imgur.com/mSClZDt.jpg" alt="Déssoudage de la puce à l'aide du pistolet à air chaud here"></p>
+<p>Afin d'éviter un choc thermique sur la puce, il est important de monter graduellement la température, et de la balayer continûment. Idem, il faut balayer continûment la puce pour ne pas la cramer. Certains disent qu'il peut être utile de la déssouder par le bas, afin d'éviter d'abîmer la puce.</p>
+<p>Enfin, lorsqu'on est arrivé à la température maximale, à l'aide d'un stylo de retrait (et en forçant un peu, à cause de la colle), on vient retirer la puce.</p>
+<h3 id="le-pcb-et-la-puce-déssoudée">Le PCB et la puce déssoudée</h3>
+<p><img src="https://imgur.com/7v7jM2J.png" alt="Le PCB et la puce dessoudée"></p>
+<h3 id="stylos-pour-retirer-les-puces">Stylos pour retirer les puces</h3>
+<p><img src="https://imgur.com/2eLmNfB.jpg" alt="Stylos"></p>
+<p>Aussi, pour assurer au mieux la connectivité de la puce, il est conseillé de la nettoyer à l'aide de fluxclene:</p>
+<p><img src="https://imgur.com/WVFJrbK.jpg" alt="Nettoyage de la puce au fluxclene"></p>
+<h2 id="lecture-de-la-puce">Lecture de la puce</h2>
+<p>Pour lire les puces eMMC BGA, j'ai utilisé la box EMATE-X.</p>
+<p><img src="https://imgur.com/dpri2GM.png" alt="E-MATE X et ses sockets"></p>
+<p>Elle dispose d'un grand nombre de sockets pour lire de nombreux formats de puces eMMC BGA, ce qui la rend très pratique.</p>
+<p>De plus, elle est compatible avec un grand nombre de boxes d'exploitation de smartphone (Medusa Pro, Octoplus, Riffbox 1 &amp; 2, Easy JTAG, UFI &hellip;).</p>
+<p>Ayant à disposition la Riffbox 1, il m'a suffit de brancher le bon plug de l'EMATE-X (il y en a un pour chaque box d'exploitation), ainsi que le bon socket (correspondant au format de la puce eMMC BGA), afin de lire le contenu de la puce.</p>
+<p><img src="https://imgur.com/RhBb7EP.jpg" alt="enter image description here"></p>
+<p><strong>NB: La plupart des Boxes d'exploitation citées plus haut fonctionnent à l'aide d'une licence/abonnement. Par chance, des credentials étaient hardcodés dans ma riffbox, me permettant ainsi d'utiliser le logiciel. Aussi, la plupart des solutions de ce genre fonctionnent sous Windows &hellip; :(</strong></p>
+<p>Une fois l'EMATE-X alimentée en micro-USB, et la Riffbox connecté à un PC sous Windows, la lecture de la puce a été rendue possible, et un dump de 8Go a fait son apparition <em>_</em>. Reste à l'investiguer, mais ça c'est un autre boulot!</p>
+<p>A bientôt pour d'autres articles 8)</p>
 
   </div>
   

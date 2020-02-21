@@ -40,7 +40,8 @@ https://bitsdeep.com/</description>
       <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://bernsteining.github.io/fr/forensics/smartphone_bga_dump/smartphone_bga_dump/</guid>
-      <description>Bientôt disponible &amp;hellip; :)</description>
+      <description>Dump d&#39;une mémoire flash BGA (Samsung Galaxy S4) Aujourd&#39;hui, nous allons nous interesser au dump physique d&#39;une mémoire interne de Samsung Galaxy S4. Quand je parle de dump physique, cela diffère d&#39;un dump logique, où les données seraient récupérées à l&#39;aide d&#39;un dd. Ici, on va déssouder la puce pour enfin la lire. Explications.
+NB: Avant toute chose, il est important de préciser que ce genre de méthode est à utiliser en dernier recours, qu&#39;un dump logique (si possible) est à favoriser.</description>
     </item>
     
     <item>
